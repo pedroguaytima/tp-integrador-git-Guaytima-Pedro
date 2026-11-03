@@ -34,7 +34,9 @@
 - Parado en directorio local 'tp-integrador' con los archivos ENTREGA.md y README.md, se genera la carpeta 'proyectoEleccionesCAI' con el comando mkdir. Seguidamente se agregan los archivos index.html y style.css. En estas condiciones se inicia repositorio local git con git init.
 - Se hace seguimiento a la carpeta 'proyectoEleccionesCAI'
 - commit inicial solo con 'proyectoEleccionesCAI'
-- Actualización de ENTREGA.md Y README.md. Seguidamente se hace seguimiento
+- Actualización de ENTREGA.md Y README.md. Seguidamente se hace seguimiento y commit.
+- Se actualizan los archivos propios del proyecto tantas veces como commits figuran hasta lograr la versión deseada por el cliente (ficticio).
+
 
 ## Dificultades encontradas
 
