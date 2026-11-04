@@ -24,6 +24,13 @@ header p {
   margin: 0;
 }
 
+.escudo {
+  display: block;
+  margin: 0 auto 16px;
+  width: 100px;
+  height: auto;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;

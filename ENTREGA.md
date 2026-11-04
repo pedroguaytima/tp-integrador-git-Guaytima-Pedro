@@ -36,12 +36,17 @@
 - commit inicial solo con 'proyectoEleccionesCAI'
 - Actualización de ENTREGA.md Y README.md. Seguidamente se hace seguimiento y commit.
 - Se actualizan los archivos propios del proyecto tantas veces como commits figuran hasta lograr la versión deseada por el cliente (ficticio).
+- Se conectó **la rama master** con el repositorio remoto https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro.git
+- Se genera Issue https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro/issues/1#issue-6192177300
+- Aceptada la issue y parado en la rama principal (master), se obtiene la última versión del repositorio remoto con git pull.
 
 
 ## Dificultades encontradas
 
 <!-- Completar: errores, dificultades o conflictos y cómo se resolvieron. -->
 Tras ejecutar git add proyectoEleccionesCAI/ se presenta la siguiente advertencia "warning: in the working copy of 'proyectoEleccionesCAI/index.html', LF will be replaced by CRLF the next time Git touches it". Cabe aclarar que previo al inicio de este trabajo se configuró git para autoconversión de CRLF con valor true con el comando "git config --global core.autocrlf true", debido a que la pc corre con Windows 11 Pro for Workstations - version 25H2.
+
+Luego de crear la rama agregar-escudo, se modificó el archivo index.html. Cuando se verifica que el mismo no haya sido modificado en la rama master(rama principal) se observa que el archivo figuraba con modificación.
 
 
 ## Reflexión final
