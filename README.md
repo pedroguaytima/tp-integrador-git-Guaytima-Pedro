@@ -14,6 +14,7 @@ Practicar el flujo básico de trabajo con Git y GitHub (commits, ramas, issues y
 - `ENTREGA.md`: registro del proceso de trabajo y enlaces de la entrega.
 - `proyecto/index.html`: página principal con el contenido.
 - `proyecto/style.css`: estilos de la página.
+- `proyecto/escudo.svg`: imagen empleada para la resolución de la issue.
 
 ## Autor
 
@@ -21,4 +22,4 @@ Pedro Antonio Guaytima
 
 ## Estado del proyecto
 
-En desarrollo.
+Finalizado, pendiente de revisión.

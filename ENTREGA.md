@@ -8,9 +8,9 @@
 
 ## Enlaces
 
-- Repositorio de GitHub:
-- Issue:
-- Pull request:
+- Repositorio de GitHub: https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro
+- Issue: https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro/issues/1#issue-6192177300
+- Pull request: https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro/pull/2#issue-6211808528
 
 ## Comandos principales utilizados
 
@@ -25,8 +25,9 @@
 - git push
 - git branch
 - git switch (o git checkout, indicar cuál se usó)
-- git merge
+- git switch -c: para crear y situarse en nueva rama.
 - git pull
+
 
 ## Descripción del proceso
 
@@ -38,18 +39,21 @@
 - Se actualizan los archivos propios del proyecto tantas veces como commits figuran hasta lograr la versión deseada por el cliente (ficticio).
 - Se conectó **la rama master** con el repositorio remoto https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro.git
 - Se genera Issue https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro/issues/1#issue-6192177300
-- Aceptada la issue y parado en la rama principal (master), se obtiene la última versión del repositorio remoto con git pull.
+- Aceptada la issue y parado en la rama principal (master), se obtiene la última versión del repositorio remoto con git pull. Posteriormente se crea rama agregar-escudo y sobre ella se trabajan los archivos pertinentes, además se actualiza ENTREGA.md. Finalmente se commitean y suben los cambios al repositorio remoto.
+- Se genera PR con los cambios subidos( https://github.com/pedroguaytima/tp-integrador-git-Guaytima-Pedro/pull/2#issue-6211808528 ). Validados los mismos, se cierra issue.
+- Se traen los cambios a la rama master en local.
+- Como agregado se actualizaron los archivos de documentación en una nueva rama actualizar-documentacion, la cual sirvió para fusionar los cambios en un nuevo PR. Este último no cierra ninguna issue.
 
 
 ## Dificultades encontradas
 
-<!-- Completar: errores, dificultades o conflictos y cómo se resolvieron. -->
 Tras ejecutar git add proyectoEleccionesCAI/ se presenta la siguiente advertencia "warning: in the working copy of 'proyectoEleccionesCAI/index.html', LF will be replaced by CRLF the next time Git touches it". Cabe aclarar que previo al inicio de este trabajo se configuró git para autoconversión de CRLF con valor true con el comando "git config --global core.autocrlf true", debido a que la pc corre con Windows 11 Pro for Workstations - version 25H2.
 
-Luego de crear la rama agregar-escudo, se modificó el archivo index.html. Cuando se verifica que el mismo no haya sido modificado en la rama master(rama principal) se observa que el archivo figuraba con modificación.
+Luego de crear la rama agregar-escudo, se modificó el archivo index.html. Cuando se verifica que el mismo no haya sido modificado en la rama master(rama principal) se observa que el archivo figuraba con modificación. Investigando se entendió que Las zonas workingg directory y staged area son únicas y compartidas: no existe una copia por rama. Las ramas solo separan los commits, con lo cual al hacer commits se resolvió el problema.
+
 
 
 ## Reflexión final
 
-<!-- Completar: qué se aprendió al utilizar Git y GitHub. -->
 El curso ha servidor para aclarar algunos conceptos básicos, poder debatir algunas cuestiones avanzadas como ser correr con docker, actualización de algunos comandos como switch reemplazando a checkout y fundamentalmente obtener buenas prácticas de desarrollo colaborativo.
+
