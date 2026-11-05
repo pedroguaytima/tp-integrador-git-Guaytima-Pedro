@@ -6,7 +6,7 @@ Landing page muy simple, hecha con HTML y CSS, que informa sobre las elecciones 
 
 ## Objetivo
 
-Practicar el flujo básico de trabajo con Git y GitHub (commits, ramas, issues y pull requests) sobre un proyecto digital pequeño y claro.
+Aplicar el flujo básico de trabajo con Git y GitHub (commits, ramas, issues y pull requests) sobre un proyecto digital pequeño y claro.
 
 ## Estructura del repositorio
 
@@ -22,4 +22,4 @@ Pedro Antonio Guaytima
 
 ## Estado del proyecto
 
-Finalizado, pendiente de revisión.
+Finalizado, en revisión.
